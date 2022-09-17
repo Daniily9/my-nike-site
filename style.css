@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;    
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+    color: #0B4654;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 400px;
+}
+
+.seach-buy{
+    display: flex;
+    gap: 24px;
+}
+
+.desctop-main{
+    display: flex;
+}
+
+.boots{
+    width: 680px;
+}
+
+.text-run{width: 200px;
+    height: 30px;
+    
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;}
+
+
+.text1{
+    width: 490px;
+    height: 50px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #001738;
+}
+
+.text2{
+    width: 380px;
+    height: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #001738;
+}
+.text3{
+    width: 350px;
+    height: 150px;
+    left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #1C1E52;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 35px;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #C58721;
+    background: #001738;
+    border-radius: 64px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main1{
+    padding-top: 135px;
+}
+
+footer{
+    display: flex;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.vector{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001738;
+    border-radius: 14px;
+}
